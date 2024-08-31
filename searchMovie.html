@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
+        <div class="sm:mx-auto sm:w-full sm:max-w-sm">
+            <img class="mx-auto h-32 w-auto" src="./images/PrimeLogo_Black.jpg" alt="Your Company">
+            <h2 class="font-manrope text-center font-bold text-3xl min-[400px]:text-3xl text-indigo-500 mb-8 max-lg:text-center">Video Search</h2>
+        </div >
+
+          <div class="pt-0 px-60 pl-96">
+            <input id="input" type="text" placeholder="Serch the movie" class="w-9/12 m-auto p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+            <button id="finde" class="pb-1 pl-4 pr-4 border border-gray-300 rounded-md bg-gray-50 text-xl focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">Finde</button>
+          </div>
+          <div class="pt-10">
+            <h2 id="example" class="font-manrope text-center font-bold text-3xl min-[400px]:text-3xl text-white mb-8 max-lg:text-center">Found this movies</h2>
+          </div>
+
+        
+
+        <div class="flex">
+            <div class=" mx-auto">
+                <figure class="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                    <img class="rounded-lg" id="imgLeft" >                    
+                </figure>
+                <div>
+                    <h6 id="nameLeft" class="font-semibold text-xl leading-8 text-indigo-600"></h6>
+                    <h6 id="directorLeft" class="font-medium text-xl leading-8 text-black mb-2"></h6>
+                    <h6 id="actorsLeft" class="font-medium text-xl leading-8 text-black mb-2"></h6>
+                </div>
+            </div>
+            
+            <div class=" mx-auto">
+                <figure class="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                    <img class="rounded-lg" id="imgCenter" >                    
+                </figure>
+                <div>
+                    <h6 id="nameCenter" class="font-semibold text-xl leading-8 text-indigo-600"></h6>
+                    <h6 id="directorCenter" class="font-medium text-xl leading-8 text-black mb-2"></h6>
+                    <h6 id="actorsCenter" class="font-medium text-xl leading-8 text-black mb-2"></h6>
+                </div>
+            </div>
+
+            <div class=" mx-auto">
+                <figure class="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+                    <img class="rounded-lg" id="imgRight">                    
+                </figure>
+                <div>
+                    <h6 id="nameRight" class="font-semibold text-xl leading-8 text-indigo-600"></h6>
+                    <h6 id="directorRight" class="font-medium text-xl leading-8 text-black mb-2"></h6>
+                    <h6 id="actrosRight" class="font-medium text-xl leading-8 text-black mb-2"></h6>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="text-center">
+            <button type="submit" class="flex w-80  ms-auto mx-auto justify-center border border-black rounded-md px-3 py-1.5 text-sm font-semibold leading-6 text-black shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"><a href="index.htm">Return to home page</a></button>
+        </div>
+
+
+
+
+
+
+
+          
+            
+            
+
+            
+        </div>
+    </div>
+
+    
+                                            
+
+</body>
+<script src="searchMovies.js"></script>
+
+</html>

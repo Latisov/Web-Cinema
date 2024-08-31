@@ -1,0 +1,46 @@
+
+  {"amazonMovies": [
+  {
+    "name": "The Lion King",
+    "director": "Director: Jon Favreau",
+    "actors": ["Donald Glover","Seth Rogen"],
+    "year": "1994",
+    "pic": "./images/TheLionKing.jpg"
+  },
+  {
+    "name": "Bad Boys 2",
+    "director": "Director: Michael Bay",
+    "actors": ["Will Smith","Martin Lawrence"],
+    "year": "2003",
+    "pic": "./images/badBoys2.jpg"
+  },
+  {
+    "name": "Bad Boys",
+    "director": "Director: George Gallo",
+    "actors": ["Will Smith","Martin Lawrence"],
+    "year": "1995",
+    "pic": "./images/badBoys.jpg"
+  },
+  {
+    "name": "Hacksaw Ridge",
+    "director": "Director: Mel Gibson",
+    "actors": ["Andrew Garfield","Sam Worthington","Luke Bracey"],
+    "year": "2016",
+    "pic": "./images/hacksawRidge.jpg"
+  },
+  {
+    "name": "Matrix",
+    "director": "Director: Joel Silver",
+    "actors": ["Keanu Reeves","Carrie-Anne Moss"],
+    "year": "1999",
+    "pic": "./images/matrix.jpg"
+  },
+  {
+    "name": "Saving Private Rayan",
+    "director": "Director: Steven Spielberg",
+    "actors": ["Tom Hanks","Matt Damon"],
+    "year": "1998",
+    "pic": "./images/savingRayan.jpg"
+  }
+  ]
+}

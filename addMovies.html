@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+
+    <div>
+        <div>
+
+        </div>
+        <div>
+            <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
+                <div class="sm:mx-auto sm:w-full sm:max-w-sm">
+                    <img class="mx-auto h-32 w-auto" src="./images/PrimeLogo_Black.jpg" alt="Your Company">
+                    <h2 class="mt-2 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">Add new film</h2>
+                </div>
+
+                <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+                    <form class="space-y-6" action="#" method="POST">
+                    <div>
+                        <label for="text" class="block text-sm font-medium leading-3 text-gray-900">Name film</label>
+                        <div class="mt-2">
+                        <input id="nameFilm" type="text" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="text" class="block text-sm font-medium leading-3 text-gray-900">Director</label>
+                        <div class="mt-2">
+                        <input id="directorFilm" type="text" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="text" class="block text-sm font-medium leading-3 text-gray-900">Actors</label>
+                        <div class="mt-2">
+                        <input id="actorsFilm" type="text" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="text" class="block text-sm font-medium leading-3 text-gray-900">Year</label>
+                        <div class="mt-2">
+                        <input id="yearFilm" type="text" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                        </div>
+                    </div>
+                    <div>
+                        <form class=" mt-10 sm:mx-auto sm:w-full max-w-sm mx-auto">
+                            <label for="text" class="block text-sm font-medium leading-3 text-gray-900">Add image</label>
+                            <input id="imageFilm" class="block w-full rounded-md border-0 py-0.5 text-red-700 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"  id="" type="file">
+                        </form>
+                    </div>
+
+                    <div>
+                        <button onclick="addMovies()" class="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Add Film</button>
+                    </div>
+                    </form>
+
+                    
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+    <!-- <div>
+        <h1 id="display1" class="mt-10 sm:mx-auto sm:w-full max-w-sm mx-auto">name</h1>
+        <h1 id="display2" class="mt-10 sm:mx-auto sm:w-full max-w-sm mx-auto">director</h1>
+        <h1 id="display3" class="mt-10 sm:mx-auto sm:w-full max-w-sm mx-auto">actors</h1>
+        <h1 id="display4" class="mt-10 sm:mx-auto sm:w-full max-w-sm mx-auto">year</h1>
+        <h1 id="display5" class="mt-10 sm:mx-auto sm:w-full max-w-sm mx-auto">image</h1>
+    </div>
+     -->
+
+    
+    
+</body>
+<script src="index.js"></script>
+<script>
+
+
+// function addMovies(){
+
+//     var nameFiml = document.getElementById("nameFilm").value;
+//     var directoreFilm = document.getElementById("directorFilm").value;
+//     var actorsFilm = document.getElementById("actorsFilm").value;
+//     var yearFilms = document.getElementById("yearFilm").value;
+//     var imageFilm = document.getElementById("imageFilm").value;
+
+
+
+   
+
+//     document.getElementById("display1").innerHTML = nameFiml;
+//     document.getElementById("display2").innerHTML = directoreFilm;
+//     document.getElementById("display3").innerHTML = actorsFilm;
+//     document.getElementById("display4").innerHTML = yearFilms;
+//     document.getElementById("display5").innerHTML = imageFilm;
+
+//     packageJson.amazonMovie.add({
+//         name: nameFiml,
+//         director: directoreFilm,
+//         actors: actorsFilm.split(","),
+//         year: yearFilms,
+//         image: imageFilm
+//     })
+// }
+
+
+
+</script>
+</html>
